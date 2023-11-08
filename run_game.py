@@ -1,5 +1,5 @@
 from colorama import Fore
-from wordlist import five_letter_words
+from wordle_answer_alphabetical import five_letter_words
 import random
 
 word = random.choice(five_letter_words)
